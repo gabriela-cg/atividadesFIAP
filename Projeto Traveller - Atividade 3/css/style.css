@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
 
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 .menu{
     background-color: #731728;
@@ -48,21 +52,47 @@ a{
     
 
 h1{
-    letter-spacing: 1px;
+    font-weight: 600;
 }
 
+h2{
+    position: relative; left: 20px; top: 5px;
+    font-size: 100px;
+    font-weight: 400;
+    color:#fff    
+}
+
+
 .secao2{
+    width: 100%;
+    height: 710px;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image:url(../images/torre\ eiffel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secao3{
     width: 100%;
     height: 710px;
     border: 2px solid;
     margin-bottom: 10px;
     padding: 20px;
     box-sizing: border-box;
+    background-image:url(../images/torre\ eiffel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h3{
     size: 30px;
-    position: relative; left: 100px; top: 250px;
+    position: relative; left: 20px; top: 5px;
+    font-weight: 300;
+    font-size: 40px;
+    color: #fff;
+
 }
 
 .container{
@@ -72,23 +102,64 @@ h3{
     padding: 30px;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
     margin-bottom: 10px;
 }
 
 .box{
     width: 300px;
     height: 325px;
-    border: 1px solid rgba(0, 0, 0, 0.287);
+    border: 1px solid rgba(0, 0, 0, 0.151);
     margin: 50px;
 }
 
-.box_img{
+.box_img1{
     width: 300px;
     height: 225px;
-    background-image: url(../images/teste.png);
+    background-image: url(../images/Jardin\ du\ Luxembourg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+.box_img2{
+    width: 300px;
+    height: 225px;
+    background-image: url(../images/Place\ du\ Panthéon\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box_img3{
+    width: 300px;
+    height: 225px;
+    background-image: url(../images/Café\ de\ I\'Homme\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box_img4{
+    width: 300px;
+    height: 225px;
+    background-image: url(../images/Pont\ Alexandre\ III.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box_img5{
+    width: 300px;
+    height: 225px;
+    background-image: url(../images/Musee\ des\ arts\ forains\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box_img6{
+    width: 300px;
+    height: 225px;
+    background-image: url(../images/Musee\ des\ arts\ forains\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .box_txt{
@@ -112,16 +183,39 @@ h4{
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
-    background-color: #731728;
+    background-color: #5D878C;
 }
 
-.galeria_1, .galeria_2, .galeria_3{
+.galeria_1, .galeria_2, .galeria_3, .galeria_4 {
     width: 300px;
     height: 225px;
     background-image: url(../images/teste.png);
     margin: 0 30px 0 30px;
-    border: 1px solid;
-    border-radius: 10px;
+    
+}
+
+.galeria_1{
+    background-image: url(../images/Jardin\ du\ Luxembourg\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.galeria_2{
+    background-image: url(../images/Place\ du\ Panthéon\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.galeria_3{
+    background-image: url(../images/Café\ de\ I\'Homme\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.galeria_4{
+    background-image: url(../images/Pont\ Alexandre\ III\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
